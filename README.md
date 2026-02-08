@@ -1,2 +1,4 @@
 # php-gcode-thumbnail
-Extract thumbnail embedded by slicer in GCODE file with PHP 
+
+A very basic PHP snippet to extract a thumbnail embedded by slicer from a GCODE file using PHP 
+
