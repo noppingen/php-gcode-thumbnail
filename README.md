@@ -5,7 +5,7 @@ A very basic PHP snippet to extract a thumbnail embedded by slicer from a GCODE 
 Extracts image without additional libraries and sends it together with some additional headers
 
 ```
- # curl -v http://api.local.lan/temp/gcode-thumbnail.php
+# curl -v http://api.local.lan/temp/gcode-thumbnail.php
 *   Trying 192.168.129.12:80...
 * Connected to api.local.lan (192.168.129.12) port 80 (#0)
 > GET /temp/gcode-thumbnail.php HTTP/1.1
