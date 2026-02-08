@@ -34,6 +34,6 @@ Extracts the embedded image without additional libraries and sends it together w
 < X-Thumb-FileSize: 14890
 < X-Thumb-Timestamp: 1770551687
 < [...]
-``
+```
 
 Feel free to use, public domain.
