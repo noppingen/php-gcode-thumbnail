@@ -2,7 +2,7 @@
 
 A very basic PHP snippet to extract a thumbnail embedded by slicer from a GCODE file using PHP 
 
-Extracts image without additional libraries and sends it together with some additional headers
+Extracts the embedded image without additional libraries and sends it together with some additional HTTP headers
 
 ```
 # curl -v http://api.local.lan/temp/gcode-thumbnail.php
@@ -25,7 +25,8 @@ Extracts image without additional libraries and sends it together with some addi
 < X-Gcode-FileMime: text/plain
 < X-Gcode-FileSize: 21199
 < X-Gcode-Timestamp: 1770544252
-< X-Gcode-SpecifiedStreamLength: 19856< X-Thumb-ProcessedStreamLength: 19856
+< X-Gcode-SpecifiedStreamLength: 19856
+< X-Thumb-ProcessedStreamLength: 19856
 < X-Thumb-StreamLengthMatch: Yes
 < X-Thumb-Resolution-X: 144
 < X-Thumb-Resolution-Y: 144
